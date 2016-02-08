@@ -1,0 +1,151 @@
+body {
+  background-color: gray;
+  margin: 0
+}
+
+header {
+  background-color: black;
+  height: 20px;
+}
+
+section {
+  height: 100%;
+  margin: auto 100px;
+}
+
+div {
+  background-color: white;
+  height: 100px;
+}
+
+img {
+  padding: 25px 45px;
+  height: 200px;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: lightgray;
+  text-align: center;
+}
+
+.mainContent {
+  height: 525px;
+}
+
+.otherContent {
+  height: 400px;
+}
+
+.push {
+  opacity: 0.5;
+}
+
+.links {
+  height: 40px;
+}
+
+.leftColumn {
+  width: 20%;
+}
+
+.rightColumn {
+  float: right;
+  width: 80%;
+}
+
+#headerLinks {
+  display: inline;
+  padding-left: 250px;
+}
+
+#headerLinks li {
+  display: inline;
+  margin: 25px;
+}
+
+#headerLinks a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+#headerLinks a:visited {
+  text-decoration: none;
+  color: lightgray;
+}
+
+#headerLinks a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+#navbar {
+  margin-top: 20px;
+}
+
+#navbarLinks {
+  display: inline;
+  padding-left: 25px;
+}
+
+#navbarLinks li {
+  display: inline;
+  padding-left: 25px;
+  font-size: 25px;
+}
+
+#navbarLinks a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+#navbarLinks a:visited {
+  text-decoration: none;
+  color: lightgray;
+}
+
+#navbarLinks a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#footerLinks {
+  display: inline;
+  padding-left: 250px;
+}
+
+#footerLinks li {
+  display: inline;
+  margin: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: lightgray;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+#news {
+  background-image: url(img/news.png);
+}
+
+#events {
+  background-image: url(img/events.png);
+}
+
+img#footer {
+  padding: 0;
+  margin: 0 250px;
+}
